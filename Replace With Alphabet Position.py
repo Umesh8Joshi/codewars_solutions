@@ -6,4 +6,4 @@ evalu = 'abcdefghijklmnopqrstuvwxyz'
 def alphabet_position(text):
     return ' '.join(key[x] for x in [i for i in list(text.lower()) if i in list(evalu)])
 if __name__ == "__main__":
-    print(alphabet_position("The sunset sets at twelve o' clock."))
+    print(alphabet_position("Harsh"))

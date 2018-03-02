@@ -14,7 +14,7 @@ def backwardsPrime(start,stop):
     for i in range(start, stop):
         if is_prime(i) and is_back_prime(i):    ls.append(i)
     return ls
-print(backwardsPrime(2, 100))
+print(backwardsPrime(2, 1000))
 
 '''
     # passed every code

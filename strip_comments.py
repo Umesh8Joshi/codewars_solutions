@@ -1,3 +1,4 @@
+
 def solution(string, markers):
     lines = string.split('\n')
     for i, line in enumerate(lines):
@@ -7,3 +8,9 @@ def solution(string, markers):
                 line = line[:index]
         lines[i] = line.rstrip(' ')
     return '\n'.join(lines)
+
+if __name__ == "__main__":
+    str = "hii" \
+          "How are you"
+    marker = "#"
+    print(solution(str,marker))

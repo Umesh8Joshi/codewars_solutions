@@ -21,7 +21,7 @@ def converFracts(lst):
         x[1] = lcms
     return lst
 if __name__ == "__main__":
-    converFracts([[1, 2], [1, 3], [1, 4]])
+    print(converFracts([[1, 2], [1, 3], [1, 4]]))
 
 
 '''
